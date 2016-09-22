@@ -13,6 +13,7 @@ namespace SE2Game
         public Size cellSize { get; set; }
         public Size cellCount { get; set; }
         public Point Objective { get; set; } 
+        public List<Cell> cells { get; set; }
 
         public void DrawMap(Graphics g)
         {
