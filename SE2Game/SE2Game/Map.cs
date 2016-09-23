@@ -15,6 +15,12 @@ namespace SE2Game
         public Point Objective { get; set; } 
         public List<Cell> cells { get; set; }
 
+        public Map(Size grid, Size cellsize, Size cellcount, Point objective)
+        {
+            Grid = grid;
+            cellSize = cellsize;
+            Objective = objective;
+        }
         public void DrawMap(Graphics g)
         {
 

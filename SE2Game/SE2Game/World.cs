@@ -15,6 +15,10 @@ namespace SE2Game
         public List<Enemy> enemies { get; private set; }
         public List<Map> maps { get; private set; }
 
+        public World()
+        {
+
+        }
         public void Update()
         {
 

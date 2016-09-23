@@ -13,6 +13,12 @@ namespace SE2Game
         public int Hitpoints { get; set; }
         public Point Location { get; set; }
 
+        public Player(string name, int hitpoints, Point location)
+        {
+            Name = name;
+            Hitpoints = hitpoints;
+            Location = location;
+        }
         public void Update()
         {
 

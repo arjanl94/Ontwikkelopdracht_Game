@@ -13,6 +13,12 @@ namespace SE2Game
         public Point Location { get; set; }
         public SoortCell Soort { get; set; }
 
+        public Cell(Point index, Point location, SoortCell soort)
+        {
+            Index = index;
+            Location = location;
+            Soort = soort;
+        }
         public void Draw(Graphics g)
         {
 
