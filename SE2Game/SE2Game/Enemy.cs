@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace SE2Game
 {
-    class Enemy
+    public class Enemy
     {
         public int Hitpoints { get; set; }
         public int Damage { get; set; }

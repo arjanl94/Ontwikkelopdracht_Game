@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SE2Game
 {
-    enum SoortCell
+    public enum SoortCell
     {
         Wall,
         Field,
         Goal
     }
-    enum Action
+    public enum Action
     {
         NoAction,
         MoveUp,

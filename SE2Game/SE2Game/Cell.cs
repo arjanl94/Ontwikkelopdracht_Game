@@ -7,17 +7,17 @@ using System.Drawing;
 
 namespace SE2Game
 {
-    class Cell
+    public class Cell
     {
         public Point Index { get; set; }
         public Point Location { get; set; }
-        public SoortCell Soort { get; set; }
+        public SoortCell soort { get; set; }
 
         public Cell(Point index, Point location, SoortCell soort)
         {
             Index = index;
             Location = location;
-            Soort = soort;
+            this.soort = soort;
         }
         public void Draw(Graphics g)
         {

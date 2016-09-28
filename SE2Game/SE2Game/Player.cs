@@ -4,15 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace SE2Game
 {
-    class Player
+    public class Player
     {
         public string Name { get; set; }
         public int Hitpoints { get; set; }
         public Point Location { get; set; }
+        public bool powerUp { get; set; }
 
+        public Player(string name, int hitpoints)
+        {
+
+        }
         public Player(string name, int hitpoints, Point location)
         {
             Name = name;
@@ -27,7 +33,7 @@ namespace SE2Game
         {
 
         }
-        public void Interaction(int keyCode)
+        public void Interaction(Keys key)
         {
 
         }
