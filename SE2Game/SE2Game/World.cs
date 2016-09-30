@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using SE2Game;
 
 namespace SE2Game
 {
@@ -13,7 +14,7 @@ namespace SE2Game
         public bool Loser { get; private set; }
         public Player player { get; set; }
         public List<Enemy> enemies { get; private set; }
-        public List<Grid> maps { get; private set; }
+        public Grid grid { get; private set; }
 
         public World()
         {
@@ -26,6 +27,10 @@ namespace SE2Game
         public void Draw(Graphics g)
         {
 
+        }
+        public void Create()
+        {
+            this.grid = new Grid(new Size(350,350), new Size(10,10));
         }
     }
 }

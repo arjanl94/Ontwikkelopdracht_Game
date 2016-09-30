@@ -1,1 +1,9 @@
 D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\bin\Debug\SE2Game.exe.config
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\bin\Debug\SE2Game.exe
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\bin\Debug\SE2Game.pdb
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.csprojResolveAssemblyReference.cache
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.Properties.Resources.resources
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.csproj.GenerateResource.Cache
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.exe
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.pdb
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\SE2Game\obj\Debug\SE2Game.Form1.resources

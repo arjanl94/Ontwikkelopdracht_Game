@@ -15,15 +15,18 @@ namespace SE2Game
         public Point Objective { get; set; } 
         public List<Cell> cells { get; set; }
 
-        public Grid(Size grid, Size cellsize, Size cellcount, Point objective)
+        public Grid(Size grid, Size cellcount)
         {
             gridSize = grid;
-            cellSize = cellsize;
-            Objective = objective;
+            cellSize = new Size(gridSize.Width / cellcount.Width, gridSize.Height / cellcount.Height);
+            this.cellCount = cellcount;
         }
-        public void DrawMap(Graphics g)
+        public void DrawGrid(Graphics g)
         {
-
+            foreach (var item in cells)
+            {
+                item.Draw(g);
+            }
         }
         public Point freePosition()
         {
