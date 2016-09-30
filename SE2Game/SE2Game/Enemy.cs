@@ -7,21 +7,14 @@ using System.Drawing;
 
 namespace SE2Game
 {
-    public class Enemy
+    public class Enemy : Character
     {
-        public int Hitpoints { get; set; }
         public int Damage { get; set; }
-        public Point Location { get; set; }
 
-        public Enemy(int hitpoints, int damage)
+        public Enemy(int hitpoints, int damage, Point location) :base(hitpoints, location)
         {
-            Hitpoints = hitpoints;
             Damage = damage;
-        }
-        public Enemy(int hitpoints, int damage, Point location)
-        {
             Hitpoints = hitpoints;
-            Damage = damage;
             Location = location;
         }
         public void Update()

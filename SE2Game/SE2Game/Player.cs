@@ -8,19 +8,11 @@ using System.Windows.Forms;
 
 namespace SE2Game
 {
-    public class Player
+    public class Player : Character
     {
         public string Name { get; set; }
-        public int Hitpoints { get; set; }
-        public Point Location { get; set; }
         public bool powerUp { get; set; }
-
-        public Player(string name, int hitpoints)
-        {
-            Name = name;
-            Hitpoints = hitpoints;
-        }
-        public Player(string name, int hitpoints, Point location)
+        public Player(string name, int hitpoints, Point location) :base(hitpoints, location)
         {
             Name = name;
             Hitpoints = hitpoints;

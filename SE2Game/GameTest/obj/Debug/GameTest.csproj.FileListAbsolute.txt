@@ -1,0 +1,9 @@
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\GameTest.dll
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\GameTest.pdb
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\SE2Game.exe
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\SE2Game.pdb
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\obj\Debug\GameTest.dll
+D:\Users\user\Documents\GitHub\Ontwikkelopdracht_Game\SE2Game\GameTest\obj\Debug\GameTest.pdb
