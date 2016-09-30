@@ -30,6 +30,8 @@ namespace SE2Game
             Point Position = new Point();
             return Position;
         }
+
+        // Achterhalen locatie van een cell 
         public SoortCell cellTypeAtPosition(Point position)
         {
             Point index = PositionToCellIndex(position);

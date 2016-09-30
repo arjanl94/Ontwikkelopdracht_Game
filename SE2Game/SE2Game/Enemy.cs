@@ -13,6 +13,11 @@ namespace SE2Game
         public int Damage { get; set; }
         public Point Location { get; set; }
 
+        public Enemy(int hitpoints, int damage)
+        {
+            Hitpoints = hitpoints;
+            Damage = damage;
+        }
         public Enemy(int hitpoints, int damage, Point location)
         {
             Hitpoints = hitpoints;

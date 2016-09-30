@@ -17,7 +17,8 @@ namespace SE2Game
 
         public Player(string name, int hitpoints)
         {
-
+            Name = name;
+            Hitpoints = hitpoints;
         }
         public Player(string name, int hitpoints, Point location)
         {

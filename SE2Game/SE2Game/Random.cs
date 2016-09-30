@@ -13,13 +13,13 @@ namespace SE2Game
         {
             return random.Next();
         }
-        public static int Next(int maxvalue)
+        public static int Next(int max)
         {
-            return random.Next(maxvalue);
+            return random.Next(max);
         }
-        public static int Next(int minvalue, int maxvalue)
+        public static int Next(int min, int max)
         {
-            return random.Next(minvalue, maxvalue);
+            return random.Next(min, max);
         }
     }
 }
